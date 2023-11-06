@@ -152,6 +152,27 @@ $ react-native start
 
 另外，不要问我为什么英文说明那么点，中文说明这么多。怪英语老师咯
 
+# 运行环境
+
+JDK：1.8
+
+node：14.15.3
+
+Python：3.10.3
+
+Npm：6.14.9
+
+AndroidStudio：2022.3.1
+
+# Android运行命令
+
+```shell
+react-native start // 启动RN服务
+adb reverse tcp:8081 tcp:8081 //部署服务，使得手机运行时可以加载本地RN代码
+```
+
+然后使用as运行安装应用
+
 ## License
 
 MIT
